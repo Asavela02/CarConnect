@@ -1,0 +1,91 @@
+@media (min-width: 768px) {
+  header {
+    padding: 1.5rem 2rem;
+  }
+
+  #menu {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
+    width: auto;
+    gap: 4rem;
+    align-items: center;
+    padding: 0;
+  }
+  #menu.open {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    background: none;
+    width: auto;
+    gap: 2rem;
+    align-items: center;
+    padding: 0;
+  }
+  #menu-icon {
+    display: none;
+
+  }
+  #menu li a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 8px 12px;
+
+  }
+  #menu li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+
+  }
+  .img01 {
+    display: block !important;
+  }
+
+  .service-card {
+    width: 20rem;
+  }
+
+  form {
+    max-width: 700px;
+    padding: 40px 48px;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.2rem 2rem;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .section label {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #e0e0e0;
+    padding-right: 10px;
+  }
+  .section input,
+  .section select,
+  .section textarea {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    min-width: 0;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  .service-cards {
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+}
+
+
+ 
