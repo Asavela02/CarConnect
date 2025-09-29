@@ -1,0 +1,124 @@
+@media screen and (min-width: 768px) {
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: unset;
+        width: unset;
+    }
+    #menu-icon {
+        display: none;
+       
+    }
+    header .container {
+        padding: 0 2rem;
+    }
+    .container {
+        padding: 0 6rem;
+    }
+    .hero-content {
+        top: 5%;
+    }
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    .hero-content p {
+        font-size: 1.3rem;
+
+    }
+    .hero-content button {
+        font-size: 1.3rem;
+    }
+
+    .hero-bottom-images {
+        gap: 1rem;
+    }
+    .hero-bottom-image01 {
+        width: 48%;
+    }
+
+    .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 47%;
+    }
+
+   .contact-inner-container {
+    flex-direction: row;
+    }
+   .map {
+    position: relative;
+    margin-top: 5rem;
+    bottom: 4rem;
+    width: 50%;
+    height: 24rem;
+   }
+   form {
+    width: 40%;
+   }
+   .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+   }
+   .footer-links {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+   footer p {
+    width: 150%;
+    margin-left: -8rem;
+   }
+
+}
+
+@media screen and (min-width: 1024px) {
+    header .container {
+        padding: 0 7rem;
+    }
+    .container {
+        padding: 0 8rem;
+    }
+    .hero-content {
+        top: 10%;
+    }
+    .hero-content h1 {
+        font-size: 4rem;
+    }
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+    .hero-content button {
+        font-size: 1.5rem;
+    }
+
+    .hero-bottom-images {
+        gap: 2rem;
+        margin-bottom: 5rem;
+    }
+    .hero-bottom-image01 {
+        width: 30%;
+        
+    }
+    .hero-bottom-images div:last-of-type {
+        position: relative;
+        left: unset;
+        top: unset;
+        display: unset;
+        height: unset;
+        justify-content: unset;
+        align-items: unset;
+        width: 30%;
+        height: 12rem;
+    }
+
+    .contact h2 {
+        font-size: 3rem;
+    }
+    form {
+        width: 30%;
+    }
+    
+}
